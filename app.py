@@ -12,7 +12,6 @@ app.config['MAIL_USERNAME'] = 'janhavidahatonde@gmail.com'
 app.config['MAIL_PASSWORD'] = 'nfdb ocvf kcou zfvk'
 mail = Mail(app)
 
-@app.route("/", methods = ['POST', 'GET'])
 @app.route("/home", methods = ['POST', 'GET'])
 def home():
     form = ContactForm()
